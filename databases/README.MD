@@ -7,7 +7,7 @@
 * https://www.youtube.com/watch?v=HXV3zeQKqGY
 
 
-* SQL Challenge 1
+## SQL Challenge 1
 
 SELECT Teacher, COUNT(Attendance) AS TotalCuts
 FROM (SELECT s.First AS First, s.Last AS Last, s.StudentID AS StudentID, s.ScanTime AS ScanTime, s.Status AS Status, 
@@ -20,7 +20,8 @@ WHERE p.Attendance = 'A'
 ORDER BY s.Last, s.First ASC) AS allCuts
 GROUP BY Teacher
 ORDER BY TotalCuts DESC
-* Homework
+
+## Homework
 
 SELECT First, Last, studentID, Grade, Scantime, (Period=1) AS pd1, Date, CourseSection
 FROM
