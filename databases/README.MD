@@ -1,6 +1,11 @@
 * Last Name: Leite
 * First Name: Eduardo
 
+# For this assignment I worked with Mamudu and Michelle P
+# I also looked up onliine resources, youtube videos, and other Repos
+https://www.youtube.com/watch?v=HXV3zeQKqGY
+
+
 * SQL Challenge 1
 
 SELECT Teacher, COUNT(Attendance) AS TotalCuts
