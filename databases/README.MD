@@ -3,6 +3,7 @@
 
 ##### For this assignment I worked with Mamudu and Michelle P
 ##### I also looked up onliine resources, youtube videos, and other Repos
+https://www.youtube.com/watch?v=inN8seMm7UI
 https://www.youtube.com/watch?v=HXV3zeQKqGY
 
 
