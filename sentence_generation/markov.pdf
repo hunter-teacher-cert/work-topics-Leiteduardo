@@ -1,4 +1,5 @@
 #in this simple application of the Markov chain model presented I test the likelihood that students are failing a class based on the performance of their peers
+
 #import random library 
 import random
 #create a dictionary with keys pass and fail
