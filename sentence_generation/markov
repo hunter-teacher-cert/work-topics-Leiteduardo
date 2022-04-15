@@ -1,0 +1,16 @@
+#in this simple application of the Markov chain model presented I test the likelihood that students are failing a class based on the performance of their peers
+
+#import random library 
+import random
+#create a dictionary with keys pass and fail
+grades_chain = {
+    'pass': ['pass', 'pass', 'pass', 'pass', 'pass', 'pass', 'pass', 'pass', 'pass', 'pass'],
+    'fail': ['pass', 'fail']
+}
+#grades will be generated ramdomly from the dictionay
+grades = [random.choice(list(grades_chain.keys()))]
+#applying the model to a typical High School class
+for i in range(34):
+    grades.append(random.choice(grades_chain[grades[i]]))
+
+print(grades)
